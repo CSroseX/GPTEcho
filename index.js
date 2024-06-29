@@ -3,10 +3,10 @@ import express, { response } from 'express';
 import bodyParser from 'body-parser';
 import cors from 'cors';
 
-const API_KEY = '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'
+const API_KEY = '<YOUR-API-KEY>'
 
 const openai = new OpenAI({
-    apiKey: "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"
+    apiKey: "<YOUR-API-KEY>"
 });
 
 
